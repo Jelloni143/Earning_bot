@@ -70,7 +70,7 @@ def balance(msg):
 
 @bot.message_handler(commands=['refer'])
 def refer(msg):
-    bot.reply_to(msg,f"👥 Referral link:\nhttps://t.me/YOUR_BOT_USERNAME?start={msg.from_user.id}")
+    bot.reply_to(msg,f"👥 Referral link:\nhttps://t.me/Link1analyzer_Bot?start={msg.from_user.id}")
 
 @bot.message_handler(commands=['addupi'])
 def addupi(msg):
